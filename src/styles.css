@@ -153,9 +153,13 @@ div .row {
 }
 
 .explanation {
-  text-transform: capitalize;
+  display: inline-block;
   font-weight: 600;
   font-size: 25px;
+}
+
+.explanation:first-letter {
+  text-transform: uppercase;
 }
 
 .grid-item {
